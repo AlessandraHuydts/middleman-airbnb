@@ -1,0 +1,36 @@
+.banner-small {
+  color: white;
+  text-align: center;
+  height: 300px;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#flats {
+  .header-flat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 0;
+  }
+  .header-flat-details {
+    display: flexbox;
+      align-items: center;
+      padding: 30px;
+      padding-left: 0;
+    }
+    .img-circle {
+      height: 100px;
+      vertical-align: middle;
+    }
+  .header-flat-owner {
+    padding: 10px;
+  }
+  form {
+    justify-content: center;
+  }
+}
